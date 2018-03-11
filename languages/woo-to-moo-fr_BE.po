@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: woocommerce-to-moodle\n"
-"POT-Creation-Date: 2018-02-26 20:15-0500\n"
-"PO-Revision-Date: 2018-02-26 20:15-0500\n"
+"Project-Id-Version: woo-to-moo\n"
+"POT-Creation-Date: 2018-03-10 17:52-0500\n"
+"PO-Revision-Date: 2018-03-10 17:54-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_BE\n"
@@ -16,7 +16,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: languages\n"
 
-#: woocommerce-to-moodle.php:89
+#: woo-to-moo.php:50
+msgid "Invalid URL"
+msgstr "URL non valide"
+
+#: woo-to-moo.php:60
+msgid "The token must have 32 characters"
+msgstr "Le jeton doit avoir 32 caractères"
+
+#: woo-to-moo.php:109
 msgid "Admin"
 msgstr "Admin"
 
@@ -48,30 +56,30 @@ msgstr "Choisir un cours..."
 msgid "Add"
 msgstr "Ajouter"
 
-#: wootomoo_payment_complete.php:171 wootomoo_payment_complete.php:172
-#: wootomoo_payment_complete.php:174
+#: wootomoo_payment_complete.php:172 wootomoo_payment_complete.php:173
+#: wootomoo_payment_complete.php:175
 msgid "Here are your connection data"
 msgstr "Voici vos données de connection"
 
-#: wootomoo_payment_complete.php:180
+#: wootomoo_payment_complete.php:181
 msgid "Web site"
 msgstr "Site Web"
 
-#: wootomoo_payment_complete.php:189
+#: wootomoo_payment_complete.php:190
 msgid "your usual password"
 msgstr "votre mot de passe usuel"
 
-#: wootomoo_payment_complete.php:197
+#: wootomoo_payment_complete.php:198
 msgid "For the following courses"
 msgstr "Pour les cours suivants"
 
-#: wootomoo_payment_complete.php:199
+#: wootomoo_payment_complete.php:200
 msgid "For the following course"
 msgstr "Pour le cours suivant"
 
 #: wootomoo_settings_menu.php:12
-msgid "Woocommerce to Moodle plugin settings"
-msgstr "Paramètres de l'extension Woocommerce à Moodle"
+msgid "Woo to Moo plugin settings"
+msgstr "Paramètres de l'extension Woo to Moo"
 
 #: wootomoo_settings_menu.php:21
 msgid "The URL of your Moodle site."
@@ -190,6 +198,9 @@ msgstr "\"Règles site\""
 #: wootomoo_settings_menu.php:90
 msgid "uncheck \"Password policy\""
 msgstr "décochez \"Règles pour les mots de passe\""
+
+#~ msgid "Woocommerce to Moodle plugin settings"
+#~ msgstr "Paramètres de l'extension Woocommerce à Moodle"
 
 #~ msgid "The Webservice Token from Moodle. (see below)"
 #~ msgstr "Le jeton Webservice de Moodle. (voir ci-dessous)"

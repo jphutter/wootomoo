@@ -1,177 +1,186 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: woocommerce-to-moodle\n"
-"POT-Creation-Date: 2018-02-26 20:15-0500\n"
-"PO-Revision-Date: 2018-02-26 20:15-0500\n"
+"Project-Id-Version: woo-to-moo\n"
+"POT-Creation-Date: 2018-03-10 17:52-0500\n"
+"PO-Revision-Date: 2018-02-23 04:03-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: fr_CA\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-Basepath: ..\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: languages\n"
 
-#: woocommerce-to-moodle.php:89
+#: woo-to-moo.php:50
+msgid "Invalid URL"
+msgstr ""
+
+#: woo-to-moo.php:60
+msgid "The token must have 32 characters"
+msgstr ""
+
+#: woo-to-moo.php:109
 msgid "Admin"
-msgstr "Admin"
+msgstr ""
 
 #: wootomoo_admin_page.php:44 wootomoo_admin_page.php:77
 msgid "Automatic registration on Moodle."
-msgstr "Inscriptions automatique sur Moodle."
+msgstr ""
 
 #: wootomoo_admin_page.php:46
 msgid "There is an error accessing Moodle."
-msgstr "Il y a une erreur dans l'accès à Moodle."
+msgstr ""
 
 #: wootomoo_admin_page.php:47
 msgid "Click here to check Moodle settings."
-msgstr "Cliquer ici pour vérifier les paramètres de Moodle."
+msgstr ""
 
 #: wootomoo_admin_page.php:121
 msgid "Delete"
-msgstr "Supprimer"
+msgstr ""
 
 #: wootomoo_admin_page.php:137
 msgid "Choose a product..."
-msgstr "Choisir un produit..."
+msgstr ""
 
 #: wootomoo_admin_page.php:145
 msgid "Choose a course..."
-msgstr "Choisir un cours..."
+msgstr ""
 
 #: wootomoo_admin_page.php:152
 msgid "Add"
-msgstr "Ajouter"
+msgstr ""
 
-#: wootomoo_payment_complete.php:171 wootomoo_payment_complete.php:172
-#: wootomoo_payment_complete.php:174
+#: wootomoo_payment_complete.php:172 wootomoo_payment_complete.php:173
+#: wootomoo_payment_complete.php:175
 msgid "Here are your connection data"
-msgstr "Voici vos données de connection"
+msgstr ""
 
-#: wootomoo_payment_complete.php:180
+#: wootomoo_payment_complete.php:181
 msgid "Web site"
-msgstr "Site Web"
+msgstr ""
 
-#: wootomoo_payment_complete.php:189
+#: wootomoo_payment_complete.php:190
 msgid "your usual password"
-msgstr "votre mot de passe usuel"
+msgstr ""
 
-#: wootomoo_payment_complete.php:197
+#: wootomoo_payment_complete.php:198
 msgid "For the following courses"
-msgstr "Pour les cours suivants"
+msgstr ""
 
-#: wootomoo_payment_complete.php:199
+#: wootomoo_payment_complete.php:200
 msgid "For the following course"
-msgstr "Pour le cours suivant"
+msgstr ""
 
 #: wootomoo_settings_menu.php:12
-msgid "Woocommerce to Moodle plugin settings"
-msgstr "Paramètres de l'extension Woocommerce à Moodle"
+msgid "Woo to Moo plugin settings"
+msgstr ""
 
 #: wootomoo_settings_menu.php:21
 msgid "The URL of your Moodle site."
-msgstr "L'URL de votre site Moodle."
+msgstr ""
 
 #: wootomoo_settings_menu.php:26
 msgid "The WebService token from Moodle. (see below)"
-msgstr "Le jeton WebService de Moodle. (voir ci-dessous)"
+msgstr ""
 
 #: wootomoo_settings_menu.php:31
 msgid "List of product categories to use."
-msgstr "Liste des catégories de produits à utiliser."
+msgstr ""
 
 #: wootomoo_settings_menu.php:62
 msgid "How to get the Webservice Token from Moodle."
-msgstr "Comment obtenir le jeton de service Web de Moodle."
+msgstr ""
 
 #: wootomoo_settings_menu.php:63 wootomoo_settings_menu.php:64
 #: wootomoo_settings_menu.php:65 wootomoo_settings_menu.php:80
 #: wootomoo_settings_menu.php:90
 msgid "\"Site administration\""
-msgstr "\"Administration du site\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:63
 msgid "\"Advanced features\""
-msgstr "\"Fonctions avancées\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:63
 msgid "select \"Enable web services\""
-msgstr "selectionner \"Activer les services web\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:63 wootomoo_settings_menu.php:64
 #: wootomoo_settings_menu.php:84 wootomoo_settings_menu.php:90
 msgid "\"Save changes\""
-msgstr "\"Enregistrer les modifications\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:64 wootomoo_settings_menu.php:65
 #: wootomoo_settings_menu.php:80
 msgid "\"Plugins\""
-msgstr "\"Plugins\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:64
 msgid "\"Manage protocols\""
-msgstr "\"Gérer les protocoles\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:64
 msgid "enable \"REST protocol\""
-msgstr "activer \"Protocole REST\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:65
 msgid "\"External services\""
-msgstr "\"Services externes\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:65 wootomoo_settings_menu.php:80
 msgid "\"Add\""
-msgstr "\"Ajouter\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:67
 msgid "give a \"Name\""
-msgstr "donner un \"nom\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:68
 msgid "check \"Enabled\""
-msgstr "cochez \"Activé\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:69
 msgid "\"Add Service\""
-msgstr "\"Ajouter un service\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:69
 msgid "\"Add functions\""
-msgstr "\"Ajouter des fonctions\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:69
 msgid "select following list of functions:"
-msgstr "sélectionnez la liste de fonctions suivante:"
+msgstr ""
 
 #: wootomoo_settings_menu.php:78
 msgid "click \"Add functions\" at the end"
-msgstr "cliquez sur \"Ajouter des fonctions\" à la fin"
+msgstr ""
 
 #: wootomoo_settings_menu.php:80
 msgid "\"Manage tokens\""
-msgstr "\"Gérer les jetons\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:82
 msgid "select one \"User\" with admin privilege"
-msgstr "sélectionnez un \"Utilisateur\" avec le privilège d'administrateur"
+msgstr ""
 
 #: wootomoo_settings_menu.php:83
 msgid "select the \"Service\" you created in step 3."
-msgstr "sélectionnez le \"Service\" que vous avez créé à l'étape 3."
+msgstr ""
 
 #: wootomoo_settings_menu.php:86
 msgid "And here is your token."
-msgstr "Et voici votre jeton."
+msgstr ""
 
 #: wootomoo_settings_menu.php:88
 msgid "Just one last point."
-msgstr "Juste un dernier point."
+msgstr ""
 
 #: wootomoo_settings_menu.php:88
 msgid ""
@@ -179,17 +188,11 @@ msgid ""
 "password will be generated in WordPress and will not match the password "
 "policy of Moodle."
 msgstr ""
-"Les paramètres de la stratégie de mot de passe doivent être désactivés car "
-"le nouveau mot de passe de l'utilisateur sera généré dans WordPress et ne "
-"correspondra pas à la politique de mot de passe de Moodle."
 
 #: wootomoo_settings_menu.php:90
 msgid "\"Site policies\""
-msgstr "\"Règles site\""
+msgstr ""
 
 #: wootomoo_settings_menu.php:90
 msgid "uncheck \"Password policy\""
-msgstr "décochez \"Règles pour les mots de passe\""
-
-#~ msgid "The Webservice Token from Moodle. (see below)"
-#~ msgstr "Le jeton Webservice de Moodle. (voir ci-dessous)"
+msgstr ""

@@ -1,4 +1,5 @@
-=== Plugin Name ===
+=== Woo to Moo ===
+
 Contributors: kojihugy
 Tags: woocommerce, register, course, moodle
 Requires at least: 4.0
